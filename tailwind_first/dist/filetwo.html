@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- in this we will study about text color -->
+<body class="bg-slate-800">
+    <h1 class="text-3xl text-orange-800 bg-green-600 p-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, omnis!</h1>
+
+    <!-- borders -->
+    <div class="w-20 h-20 border border-orange-600 m-4"></div>
+    <div class="w-20 h-20 border-2 border-t-8 rounded-2xl border-red-600 m-4"></div>
+    <div class="w-20 h-20 border-4 border-dotted rounded-full border-blue-600 m-4"></div>
+    <div class="w-20 h-20 border-2 border-dashed border-red-600 m-4"></div>
+    <div class="w-20 h-20 border-2 border-dotted rounded-tl-full  border-orange-600 m-4"></div>
+
+    <!-- lets talk about hover , focus and psudo classes -->
+    <button class="bg-sky-500 hover:bg-sky-700 border-2 rounded-4xl text-white border-sky-600 m-2 p-2 pr-5 pl-5 text-center">Save Changes</button>
+
+    <!-- transition  -->
+    <button class="bg-sky-500 hover:bg-sky-700 border-2 rounded-4xl text-white border-sky-600 m-2 p-2 pr-5 pl-5 text-center ease-in duration-300 ">Button A</button>
+
+    <button class="bg-sky-500 hover:bg-sky-700 border-2 rounded-4xl text-white border-sky-600 m-2 p-2 pr-5 pl-5 text-center duration-400 ease-out">Button B</button>
+
+    <button class="bg-sky-500 hover:bg-sky-700 border-2 rounded-4xl text-white border-sky-600 m-2 p-2 pr-5 pl-5 text-center duration-500 ease-in-out">Button C</button>
+
+    <!-- active:bg-violet-700: Even darker violet when the button is actively clicked. -->
+    <!-- focus:outline-2: Adds a 2px outline when the button is focused (keyboard or mouse click).
+
+    focus:outline-offset-2: Adds 2px spacing between the outline and the button border.
+
+    focus:outline-violet-500: The outline color is violet when focused. -->
+    <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700  rounded-4xl  text-white m-2 p-2 pr-5 pl-5 text-center">
+    Save changes 1
+   </button>
+
+   <!-- transition and animation  is very important see documeantation  -->
+   <!-- transition  -->
+   <button class="bg-indigo-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-700  rounded-3xl text-white  m-2 p-2 pr-5 pl-5 ">
+  Save Changes 2
+  </button>
+
+  <!-- responsive design from documantation -->
+
+   <h1 class="text-white mt-10 mb-10">Lorem ipsum dolor sit amet.</h1>
+
+  <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-2xl">
+    <!-- flex by default row hota hai  -->
+    <!-- md means medium device pe kam karege -->
+     <!-- jaise hi midium size pr hoga flex lgna start hoga  -->
+      <!-- tailwind css sbse phle chote devices pe apply hoti hai agar aap override krna chahte toh aapko alag se likhni pdege bde device ke liye  -->
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img
+        class="h-48 w-full object-cover md:h-full md:w-48"
+        src="https://images.pexels.com/photos/31544102/pexels-photo-31544102/free-photo-of-cherry-blossoms-at-washington-state-capitol-dome.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Modern building architecture"
+      />
+    </div>
+    <div class="p-8">
+      <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase md:text-black">Company retreats</div>
+      <a href="#" class="mt-1 block text-lg leading-tight font-medium text-black hover:underline">
+        Incredible accommodation for your team
+      </a>
+      <p class="mt-2 text-gray-500">
+        Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of
+        places to do just that.
+      </p>
+    </div>
+  </div>
+</div>
+
+<h1 class="mt-9 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, enim.</h1>
+
+
+</div>
+</body>
+</html>
