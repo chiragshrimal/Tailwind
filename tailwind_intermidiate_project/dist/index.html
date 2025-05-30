@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- h-screen se 10vh mil jati hai  -->
+    <div class="h-screen flex">
+      <!-- image -->
+      <img
+        class="hidden lg:block w-1/2"
+        src=".\assests\tamoto_image.jpg"
+        height="100%"
+        width="950px"
+        alt=""
+      />
+      <!-- login section-->
+      <div class="flex flex-col justify-center items-center w-full">
+        <div>
+          <div class="text-xl font-bold mb-5">
+            <span class="text-green-600">&#9650;</span>
+            <span>FarmMaa</span>
+          </div>
+          <div>
+            <p class="font-bold text-2xl">Hello,</p>
+            <p class="font-bold text-2xl mb-5">Welcome Back</p>
+            <p class="mb-1">Login to manage your account</p>
+          </div>
+          <div>
+            <div class="mb-1">
+              <input
+                class="border-1 rounded-1xl m-1 w-full pt-1.5 pb-1.5 items-center pl-2"
+                type="email"
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <input
+                class="border-1 rounded-1xl m-1 w-full pt-1.5 pb-1.5 items-center pl-2 "
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="mt-1 mb-2">
+              <a class="text-blue-600" href="">Forgot your password?</a>
+            </div>
+            <div class="flex justify-center flex-col items-center">
+            <div class="border-1 rounded-1xl m-1 pr-10 pl-0.5 w-full pt-1.5 pb-1.5 text-center bg-green-600  hover:bg-green-700 text-white font-bold text-1xl">
+              <button class="">Login</button>
+            </div>
+            <div class="m-3 ">
+              <span>or</span>
+            </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center mb-3 gap-3">
+            <div>
+              <a href="">
+              <img class=" h-1/4 w-3/4" src=".\assests\google_image.png" alt=""/>
+              </a>
+            </div>
+            <div>
+              <a href=""><img
+                class="h-1/4 w-3/4"
+                src=".\assests\facebook_image.png"
+                height="5px"
+                width="50px"
+                alt=""
+              /></a>
+            </div>
+            <div>
+              <a href=""><img
+                class="h-1/4"
+                src=".\assests\instagram.png"
+                height="10px"
+                width="30px"
+                alt=""
+              /></a>
+            </div>
+          </div>
+          <div>
+          <p>don't have an account? <span class="text-blue-600 hover:text-blue-400"> <a href="">Sign Up here</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
